@@ -2,8 +2,7 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "functions": {
     "api/detect.js": {
-      "maxDuration": 60,
-      "includeFiles": ["best.onnx"]
+      "includeFiles": "best.onnx"
     }
   }
 }
